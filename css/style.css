@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+/*------------------ common css start ----------------*/
+
+.container{
+        width: 1200px;
+        margin: auto;   
+}
+.row{
+        display: flex;
+        flex-wrap: wrap;
+}
+/*------------------- common css end ------------*/
+/*------- nav start ----*/
+
+nav{
+        background: #252d2f;
+}
+nav .container{
+        align-items: center;
+}
+nav .logo img{
+        display: block;
+}
+nav .logo{
+        width: 20%;
+}
+nav .manu{
+        width: 80%;
+}
+nav .manu ul{
+        justify-content: flex-end;
+}
+nav .manu ul li a{
+        color: white;
+        text-transform: uppercase;
+        padding: 30px 21px;
+        display: block;
+        font-size: 16px;
+        font-weight: 800;
+        transition: .6s;
+}
+nav .manu ul li:hover a{
+            color: #2ecc71;
+}
+/*--------------- banner start -----------*/
+
+#banner{
+         background: url(../img/images/banner_img.jpg);
+         height:1000px;
+         background-position: center;
+         background-size: cover;
+         position: relative;
+}
+#banner .container{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+#banner .banner_contant h1{
+            color: white;
+            text-transform: uppercase;
+            font-size: 60px;
+            font-weight: 800;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 55px;
+            border-bottom: 3px solid white;
+            border-top: 3px solid white;
+}
+#banner .banner_contant a{
+            color: white;
+            font-size: 18px;
+            font-weight: 800;
+            border: 3px solid white;
+            padding: 20px 35px;
+}
+/*--------------- banner end --------------*/
+/*--------------- taxt contant start ----------*/
+#taxt-box .taxt_contant .taxt_item{
+                        width: calc(100% / 3);
+                        color: #566366;                       
+}
+#taxt-box .taxt_contant .taxt_item h3{
+                        font-size: 30px;
+                        font-weight: 800;
+                        text-transform: uppercase;
+                        padding-bottom: 50px;
+}
+#taxt-box .taxt_contant .taxt_item p{
+                        font-size: 18px;
+}    
+#taxt-box .taxt_contant{
+                        margin-top: 100px;
+                        margin-bottom: 100px;
+}                 
+/*--------------- taxt contant end ------------*/
+/*--------------- about start --------------*/
+#about{
+        background-color: #f2f2f1;               
+}
+#about .about_bg:hover img{
+                        background-image: url(../img/images/about_img_2.jpg);
+}
+#about .about_bg{ width: 20%; height: 755px;}
+#about .about_item{ 
+                 margin-left: 400px;
+                 width: 50%;
+                 color: #919191;
+}
+#about .heading_info{
+                margin-bottom: 80px;
+}
+#about .heading_info h2{
+                color: #566366;
+                font-size: 30px;
+                font-weight: 800;
+                padding-bottom: 50px;
+}
+#about .logo_text_info{
+                padding-bottom: 60px;
+}
+#about .heading_info p{
+                font-size: 18px;
+}
+#about .logo_text .logo_text_info{
+                        width: 50%;
+                        padding-right: 50px;
+}
+#about .logo_text .logo_text_info h3{
+        color: #566366;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 800;
+        padding-left: 20px;
+}
+#about .logo_text .logo_text_info p{ 
+                font-size: 18px;      
+                padding-left: 62px;
+}
+/*--------------- about end ----------------*/
+/*--------------- my skill start ---------------*/
+#my_skill{
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+#my_skill .text{
+                 width: 50%;                
+                 color: #919191;
+                 padding-right: 30px;
+}
+#my_skill .text h4{
+                font-size: 30px;
+                font-weight: 800;
+                color: #566366;
+                text-transform: uppercase;
+                padding-top: 100px;
+                padding-bottom: 50px;
+}
+#my_skill .text p{
+                font-size: 18px;
+                padding-bottom: 60px;
+}
+#my_skill .text a{
+                color: #2ecc71;
+                text-transform: uppercase;
+                border: 3px solid #2ecc71;
+                padding: 15px 25px;
+                font-size: 18px;
+                font-weight: 800;
+}
+#my_skill .table{
+                width: 50%;
+                padding-left: 30px;              
+}
+#my_skill .table p{
+                margin-left: 90%;
+                padding-top: 5px;                
+                color: white;
+                font-size: 18px;
+                font-weight: 800;
+}
+#my_skill .table h4{
+                color: #566366;
+                font-size: 22px;
+                font-weight: 800;
+                text-transform: uppercase;
+                padding-top: 40px;
+                padding-bottom: 20px;
+}
+#my_skill .table .box{
+                width: 560px;
+                height: 30px;
+                background-color: #f2f2f1;
+}
+#my_skill .table_1 .up_box{
+                width: 90%;
+                height: 30px;
+                background-color: #2ecc71;
+}
+#my_skill .table_2 .up_box{
+        width: 80%;
+        height: 30px;
+        background-color: #2ecc71;
+}
+#my_skill .table_3 .up_box{
+        width: 90%;
+        height: 30px;
+        background-color: #2ecc71;
+}
+#my_skill .table_4 .up_box{
+        width: 70%;
+        height: 30px;
+        background-color: #2ecc71;
+}
+/*--------------- my skill end -----------------*/
+/*--------------- resume start -----------------*/
+#resume{
+        background-color: #f2f2f1;
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+#resume .container{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+#resume .resume_info{        
+        color: #919191;        
+}
+#resume .resume_info h4{ 
+                font-size: 30px;
+                font-weight: 800;
+                color: #566366;
+                text-transform: uppercase;
+                padding-bottom: 50px;
+}
+#resume .resume_info p{
+                font-size: 18px;
+                padding-bottom: 70px;
+}
+#resume .resume_info a{
+        color: #2ecc71;
+        text-transform: uppercase;
+        border: 3px solid #2ecc71;
+        padding: 20px 20px;
+        font-size: 18px;
+        font-weight: 800;
+}
+/*--------------- resume end -------------------*/
+/*------------------- portfolio start ----------------*/
+#portfolio{
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+#portfolio .text_info{
+        height: 100%;
+        color: #919191;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 100px;
+} 
+#portfolio .text h3{
+        color: #566366;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 800;
+        padding-bottom: 50px;
+}
+#portfolio .text p{
+        font-size: 18px;
+}
+#portfolio .img_info img{        
+        align-items: center;
+        justify-content: center;
+        padding-left: 22.5px;
+        padding-bottom: 22.5px;
+}
+/*------------------- portfolio end ------------------*/ 
